@@ -32,10 +32,10 @@ public class EXP21_Main_LinJZ {
 
     public static void main(String[] arg) {
         EXP21_Employee_LinJZ[] data = new EXP21_Employee_LinJZ[4];
-        data[0] = new EXP21_SalariedEXP21EmployeeLinJZ_LinJZ();
-        data[1] = new EXP21_HourlyEXP21EmployeeLinJZ_LinJZ();
-        data[2] = new EXP21_CommissonEXP21Employee_LinJZLinJZ();
-        data[3] = new EXP21_BasePlusCommissionEXP21Employee_LinJZEXP21LinJZ();
+        data[0] = new EXP21_SalariedEmployee_LinJZ();
+        data[1] = new EXP21_HourlyEmployee_LinJZ();
+        data[2] = new EXP21_CommissonEmployee_LinJZ();
+        data[3] = new EXP21_BasePlusCommissioEmployee_LinJZ();
 
         while (true) {
             System.out.println("======================工资支付系统员工类型==========================");
@@ -68,10 +68,5 @@ public class EXP21_Main_LinJZ {
 
         }
 
-
-
-
-        }
-
-
+    }
 }

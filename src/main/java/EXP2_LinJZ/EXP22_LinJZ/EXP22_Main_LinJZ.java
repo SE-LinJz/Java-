@@ -11,7 +11,7 @@ public class EXP22_Main_LinJZ {
         try {
         Scanner x = new Scanner(System.in);
         System.out.println("输入格式为：交通工具 参数A 参数B 参数C");
-        String vehicle = x.next();
+        String vehicle = "EXP22_"+x.next()+"_LinJZ";
         double A = x.nextDouble();
         double B = x.nextDouble();
         double C = x.nextDouble();

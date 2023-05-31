@@ -4,7 +4,10 @@ import java.util.Calendar;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class EXP21_CommissonEXP21Employee_LinJZLinJZ extends EXP21_Employee_LinJZ {
+/**
+ * @author linjz
+ */
+public class EXP21_CommissonEmployee_LinJZ extends EXP21_Employee_LinJZ {
     int salaryPerSale =15;
     double redEnvelope = 100;
     @Override

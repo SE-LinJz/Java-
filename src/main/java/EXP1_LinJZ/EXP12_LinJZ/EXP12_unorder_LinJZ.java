@@ -2,6 +2,9 @@ package EXP1_LinJZ.EXP12_LinJZ;
 
 import java.util.Random;
 
+/**
+ * @author linjz
+ */
 public class EXP12_unorder_LinJZ {
     public static void main(String[] args) {
         int[] oldarray = new int [20];

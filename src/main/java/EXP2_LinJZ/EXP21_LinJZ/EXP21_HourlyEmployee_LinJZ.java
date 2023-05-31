@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * @author linjz
  */
-public class EXP21_HourlyEXP21EmployeeLinJZ_LinJZ extends EXP21_Employee_LinJZ {
+public class EXP21_HourlyEmployee_LinJZ extends EXP21_Employee_LinJZ {
     int salaryPerHour =25;
     int salaryMorePerHour =35;
     double redEnvelope = 100;

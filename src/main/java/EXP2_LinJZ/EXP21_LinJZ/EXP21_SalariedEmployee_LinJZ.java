@@ -5,7 +5,7 @@ import java.util.Calendar;
 /**
  * @author linjz
  */
-public class EXP21_SalariedEXP21EmployeeLinJZ_LinJZ extends EXP21_Employee_LinJZ {
+public class EXP21_SalariedEmployee_LinJZ extends EXP21_Employee_LinJZ {
     int salaryPerMonth = 5000;
 
     //生日红包

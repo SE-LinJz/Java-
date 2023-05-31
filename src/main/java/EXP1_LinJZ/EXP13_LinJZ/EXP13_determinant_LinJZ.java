@@ -1,5 +1,8 @@
 package EXP1_LinJZ.EXP13_LinJZ;
 
+/**
+ * @author linjz
+ */
 public class EXP13_determinant_LinJZ {
     public static void main(String[] args) {
         int[][] randarray = new int[5][5];
@@ -12,7 +15,7 @@ public class EXP13_determinant_LinJZ {
                 randarray[i][j]=(int)(Math.random()*30);
             }
         }
-
+        // 按行列输出该数组
         for(i=0;i<5;i++) {
             for(j=0;j<5;j++) {
                 System.out.print(""+randarray[i][j]+"\t");
